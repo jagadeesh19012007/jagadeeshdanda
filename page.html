@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person's Details</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f3;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .profile-card h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .profile-card p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .profile-card .email,
+        .profile-card .address {
+            margin-bottom: 15px;
+        }
+
+        .profile-card .email {
+            font-weight: bold;
+            color: #5cb85c;
+        }
+
+        .profile-card .address {
+            font-size: 14px;
+        }
+
+        .profile-card button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .profile-card button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+        <h2>John Doe</h2>
+        <p class="email">johndoe@example.com</p>
+        <p class="address">123 Main Street, City, Country</p>
+        <button>Contact</button>
+    </div>
+
+</body>
+</html>
